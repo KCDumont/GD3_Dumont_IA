@@ -6,20 +6,23 @@ Le joueur incarne Brave Pitre, un jeune humain capturé par des Orcs, qui prévo
 ________________________________________
 Objectifs pour le développeur :
  Le but est de concevoir une IA pour les patrouilles des Orcs. Voici les éléments fonctionnels à mettre en place :
-  1.	Patrouilles avec parcours prédéfinis
-       o	Chaque unité orc doit suivre un itinéraire précis autour de la prison.
-       o	Ces parcours doivent être paramétrables, permettant des ajustements ou des variations si nécessaire.
-  2.	Zone de détection et champ de vision
-       o	Chaque Orc doit disposer d’une zone de détection pour repérer le joueur.
-       o	Cette zone doit être directionnelle, simulant un champ de vision réaliste.
-       o	Si le joueur entre dans cette zone, cela déclenche une réaction (voir point suivant).
-  3.	Réaction en cas de détection
-       o	Lorsqu’un Orc repère le joueur :
+  1.	Patrouilles avec parcours prédéfinis :
+       -	Chaque unité orc doit suivre un itinéraire précis autour de la prison.
+       -	Ces parcours doivent être paramétrables, permettant des ajustements ou des variations si nécessaire.
+ 
+  2.	Zone de détection et champ de vision :
+       -	Chaque Orc doit disposer d’une zone de détection pour repérer le joueur.
+       -	Cette zone doit être directionnelle, simulant un champ de vision réaliste.
+       -	Si le joueur entre dans cette zone, cela déclenche une réaction (voir point suivant).
+ 
+  3.	Réaction en cas de détection :
+       -	Lorsqu’un Orc repère le joueur :
           -	Il doit attaquer en lançant des projectiles magiques.
           -	Ces projectiles doivent permettre au joueur de les esquiver, ajoutant une couche de défi.
-  4.	Comportement secondaire conditionnel
-       o	Les Orcs doivent avoir une action secondaire qui s’active sous certaines conditions pour perturber leur routine de patrouille.
-       o	Une piste proposée (modifiable si une mécanique plus intéressante est trouvée) :
+ 
+  4.	Comportement secondaire conditionnel :
+       -	Les Orcs doivent avoir une action secondaire qui s’active sous certaines conditions pour perturber leur routine de patrouille.
+       -	Une piste proposée (modifiable si une mécanique plus intéressante est trouvée) :
           -	Lorsqu’un Orc atteint un point de patrouille, il peut utiliser un sort aléatoire parmi les options suivantes :
           -	Invisibilité : L’unité devient temporairement invisible.
           -	Inversion de position : L’Orc échange sa place avec un autre Orc.
