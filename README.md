@@ -31,5 +31,5 @@ Objectifs pour le développeur :
 ________________________________________
 Remarques importantes
 •	Ces mécaniques doivent être pensées pour équilibrer le défi du joueur tout en garantissant que le gameplay reste fluide et cohérent.
-•	N’hésitez pas à expérimenter ou ajuster certaines idées pour obtenir un gameplay engageant et dynamiqu
+•	N’hésitez pas à expérimenter ou ajuster certaines idées pour obtenir un gameplay engageant et dynamique.
 
